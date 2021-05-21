@@ -21,3 +21,23 @@ console.log(population)
 // String: Sequence of characters, used for text
 // Boolean: Logical type that can only be true or false, Used for making decisions
 
+// Coding Challenge #1
+
+let markH = 1.69;
+let johnH = 1.95;
+
+let markW = 78;
+let johnW = 92;
+
+// let markH = 1.88;
+// let johnH = 1.76;
+
+// let markW = 95;
+// let johnW = 85;
+
+let markBMI = markW / markH ** 2;
+let johnBMI = johnW / johnH ** 2;
+
+markHigherBMI = markBMI > johnBMI;
+
+console.log(markHigherBMI)
